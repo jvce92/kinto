@@ -3,7 +3,7 @@ Changelog
 
 This document describes changes between each past release.
 
-7.0.0 (unreleased)
+7.0.0 (2017-04-25)
 ------------------
 
 **Breaking changes**
@@ -43,7 +43,6 @@ Now:
   is now mandatory (fixes #960).
 - ``get_app_settings()`` from ``kinto.core.testing.BaseWebTest`` is now a
   class method (#1144)
-- Upgraded the kinto-admin to version 1.13.2
 
 **Protocol**
 
@@ -80,6 +79,7 @@ Protocol is now at version **1.16**. See `API changelog`_.
 - Removed useless logging info from resource (ref #603)
 - Make sure prefixed userid is always first in principals
 - Run functional tests on PostgreSQL
+- Upgraded the kinto-admin to version 1.13.2
 
 
 6.0.0 (2017-03-03)
